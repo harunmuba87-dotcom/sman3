@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+    header {
+        background-color: #3c71aa;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    header img {
+        border-radius: 40px;
+        height: 90px;
+    }
+
+    nav {
+        background-color: #3d75ad;
+        margin-left: auto;
+
+    }
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        padding-top: auto;
+        z-index: 1000;
+    }
+    nav ul li {
+        position: relative;
+        margin: 0 15px;   
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 8px 12px;
+        display: block;
+    }
+    nav ul li a:hover {
+        background-color: rgb(54, 48, 90);
+        border-radius: 5px;
+    }
+    nav ul li ul {
+        display: none;
+        position: absolute;
+        top: 35px;
+        left: 0;
+        background-color: black;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        border-radius: 5px;
+    }
+    nav ul li ul li {
+        margin: 0;
+        width: 150px;
+    }
+    nav ul li ul li a {
+        padding: 10px;
+        font-weight: normal;
+    }
+    nav ul li:hover ul {
+        display: block;
+    }
+
+  .seja {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+
+  .sejarah {
+    max-width: 800px;
+    padding: 40px 50px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  }
+
+  .sejarah h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+  }
+
+  .sejarah h3 {
+    margin-top: 25px;
+    color: #334155;
+    font-size: 20px;
+  }
+
+  .sejarah p {
+    font-size: 15px;
+    margin-top: 12px;
+  }
+
+  .sejarah .sumber {
+    margin-top: 20px;
+    font-size: 13px;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 8px;
+  }
+
+
+     aside {
+        background-color: #64af32;
+        border-radius: 7px;
+        padding: 20px;
+        line-height: 16px;
+        color: white;
+        height: 100px;
+    }
+
+    footer {
+        text-align: center;
+        background-color: #354A5F;
+        color: white;
+        padding: 20px;
+        margin-top: 1%;
+    }

@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+ header {
+        background-color: #3c71aa;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    header img {
+        border-radius: 40px;
+        height: 90px;
+    }
+
+    nav {
+        background-color: #354A5F;
+        margin-left: auto;
+
+    }
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        padding-top: auto;
+        z-index: 1000;
+    }
+    nav ul li {
+        position: relative;
+        margin: 0 15px;   
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 8px 12px;
+        display: block;
+    }
+    nav ul li a:hover {
+        background-color: rgb(54, 48, 90);
+        border-radius: 5px;
+    }
+    nav ul li ul {
+        display: none;
+        position: absolute;
+        top: 35px;
+        left: 0;
+        background-color: black;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        border-radius: 5px;
+    }
+    nav ul li ul li {
+        margin: 0;
+        width: 150px;
+    }
+    nav ul li ul li a {
+        padding: 10px;
+        font-weight: normal;
+    }
+    nav ul li:hover ul {
+        display: block;
+    }
+
+ main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kontak-form {
+  background-color: white;
+  padding: 25px 30px;
+  border-radius: 15px;
+  width: 450px;
+}
+
+.kontak-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #003366;
+}
+
+.kontak-form table {
+  width: 100%;
+}
+
+.kontak-form td {
+  padding: 10px;
+  vertical-align: top;
+}
+
+.kontak-form input,
+.kontak-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.kontak-form textarea {
+  height: 80px;
+}
+
+.kontak-form button {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+}
+
+.kontak-form button:hover {
+  background-color: #0055aa;
+}
+
+aside {
+        background-color: #649b32;
+        padding: 20px;
+        color: white;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+
+    footer {
+        background-color: #2C3D4F;
+        color: white;
+        padding: 15px;
+        text-align: center;
+    }
+
