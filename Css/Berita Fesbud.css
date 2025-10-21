@@ -1,0 +1,32 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    padding: 20px;
+}
+
+.ab {
+    max-width: 750px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+    color: #2C3D4F;
+}
+
+main img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+p {
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 16px;
+}
